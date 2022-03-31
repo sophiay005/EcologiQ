@@ -89,11 +89,11 @@
                 android:layout_marginRight="5dp"/>
 
             <Button
-                android:id="@+id/buttonVyanaPlantBeauty"
+                android:id="@+id/buttonFatAndTheMoon"
                 android:layout_width="150dp"
                 android:layout_height="60dp"
                 android:layout_weight="1"
-                android:text="Vyana Plant"
+                android:text="Fat And The Moon"
                 android:backgroundTint="@color/teal_200"
                 android:layout_marginLeft="5dp"/>
         </LinearLayout>

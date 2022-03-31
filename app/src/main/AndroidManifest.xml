@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="sohee.yoon.ecologiq">
-
+<uses-permission android:name="android.permission.INTERNET"/>
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -12,7 +12,7 @@
 
 
 
-        <activity android:name=".Menu"
+        <activity android:name=".ElateBeauty"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
@@ -48,7 +48,7 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".ElateBeauty"
+        <activity android:name=".Menu"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW"/>

@@ -6,10 +6,10 @@
     android:layout_height="match_parent"
     android:padding="15dp">
     <TextView
-        android:id="@+id/textViewPlantMakeup"
+        android:id="@+id/textViewDabHerbMakeup"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Plant Makeup"
+        android:text="Fat And The Moon"
         android:backgroundTint="@color/teal_700"
         android:textSize="35dp"
         android:textColor="@color/teal_700"
@@ -21,7 +21,7 @@
         android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="“UR ULTRA NATURAL BEAUTY SHOP!”"
+        android:text="“Intention, process, and purpose guides us to plug back into the cosmic matrix which is exponentially bigger than the sum of its parts.”"
         android:textStyle="italic"
         android:textColor="@color/teal_300"
         android:textSize="18dp"
@@ -43,10 +43,10 @@
                 android:orientation="horizontal">
 
                 <ImageView
-                    android:id="@+id/imageViewplantmakeupbrowgloss"
+                    android:id="@+id/imageViewdabherbmakeupmascarabar"
                     android:layout_width="99dp"
                     android:layout_height="149dp"
-                    app:srcCompat="@drawable/plantmakeupbrowgloss" />
+                    app:srcCompat="@drawable/dabherbmakeupmascarabar" />
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -54,22 +54,22 @@
                     android:orientation="vertical">
 
                     <TextView
-                        android:id="@+id/textViewbrowgloss"
+                        android:id="@+id/textViewmascarabar"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:paddingBottom="10dp"
-                        android:text="Chicory Brow Gloss"
+                        android:text="Mascara Bar"
                         android:textStyle="bold" />
 
                     <TextView
-                        android:id="@+id/textViewbrowglossdescription"
+                        android:id="@+id/textViewmascarabardescription"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:paddingBottom="5dp"
-                        android:text="100% made from plants. Make brows pop! A next level all natural high density chicory root gloss for eyebrows and lips. Gives a very natural deep brown almost black color, works well on all brows." />
+                        android:text="Say goodbye to clumpy, smudgy, and flaky mascara once and for all because our gentle mascara formulas just keep getting better. With just a swish of your wand, create fuller, fluffier, and feathery lashes and brows." />
 
                     <Button
-                        android:id="@+id/buttonlinkbrowgloss"
+                        android:id="@+id/buttonlinkmascarabar"
                         android:layout_width="180dp"
                         android:layout_height="wrap_content"
                         android:backgroundTint="@color/teal_200"
@@ -85,10 +85,10 @@
                 android:paddingTop="10dp">
 
                 <ImageView
-                    android:id="@+id/imageViewplantmakeupshimmermist"
+                    android:id="@+id/imageViedabhermakeuppowder"
                     android:layout_width="99dp"
                     android:layout_height="149dp"
-                    app:srcCompat="@drawable/plantmakeupshimmermist" />
+                    app:srcCompat="@drawable/dabhermakeuppowder" />
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -96,11 +96,11 @@
                     android:orientation="vertical">
 
                     <TextView
-                        android:id="@+id/textViewplantmakeupshimmermist"
+                        android:id="@+id/textViewdabhermakeuppowder"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:paddingBottom="10dp"
-                        android:text="Rose Star System Shimmer Mist"
+                        android:text="Translucent Powder"
                         android:textStyle="bold" />
 
                     <TextView
@@ -108,10 +108,10 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:paddingBottom="5dp"
-                        android:text="Just rose heaven!! Rose scented, rose tinted. Enjoy this dream creation!! Shake well before use because star dust will settle. Color may vary depending on batch of roses!" />
+                        android:text="Designed to specifically target acne and blemish prone skin,  you don't have to worry about future breakouts or irritations with the soothing properties of our gentle ingredients." />
 
                     <Button
-                        android:id="@+id/buttonlinkplantmakeupshimmermist"
+                        android:id="@+id/buttonlinkdabhermakeuppowder"
                         android:layout_width="180dp"
                         android:layout_height="wrap_content"
                         android:backgroundTint="@color/teal_200"
@@ -127,10 +127,10 @@
                 android:paddingTop="10dp">
 
                 <ImageView
-                    android:id="@+id/imageViewplantmakeupcheekliptint"
+                    android:id="@+id/imageViewdabhermakeupfoundation"
                     android:layout_width="99dp"
                     android:layout_height="149dp"
-                    app:srcCompat="@drawable/plantmakeupcheekliptint" />
+                    app:srcCompat="@drawable/dabhermakeupfoundation" />
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -138,22 +138,24 @@
                     android:orientation="vertical">
 
                     <TextView
-                        android:id="@+id/textViewplantmakeupcheekliptint"
+                        android:id="@+id/textViewdabhermakeupfoundation"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:paddingBottom="10dp"
-                        android:text="Ultimate Cheek Lip Tint"
+                        android:text="Serum Foundation"
                         android:textStyle="bold" />
 
                     <TextView
-                        android:id="@+id/textViewcheekliptintdescription"
+                        android:id="@+id/textViewserumfoundationdescription"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:paddingBottom="5dp"
-                        android:text="Lush, soft, smooth. A lip, cheek and eye moisturizing tinted gloss in one! All you need. This makeup stick is a love triangle of a berry harvest, skin empowering flowers and the earthen gifts. Gives a glossy warm red tint!" />
+                        android:text="This 3-in-1 ( prime, moisturize, conceal) serum foundation is formulated with our signature infusion of a frankincense tear and our medicinal blend of herbs and non-clogging oils. Silky, easy to build,  and extra creamy!
+
+" />
 
                     <Button
-                        android:id="@+id/buttonlinkcheekliptint"
+                        android:id="@+id/buttonlinkserumfoundation"
                         android:layout_width="180dp"
                         android:layout_height="wrap_content"
                         android:backgroundTint="@color/teal_200"
@@ -164,4 +166,5 @@
 
         </LinearLayout>
     </ScrollView>
+
 </LinearLayout>

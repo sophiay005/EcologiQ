@@ -29,6 +29,11 @@
         android:paddingBottom="15dp"
         android:textAlignment="center"/>
 
+    <WebView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id = "@+id/webview"/>
+
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
