@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/layout/axiology.xml" value="0.3203125" />
+        <entry key="app/src/main/res/layout/brands.xml" value="0.3351449275362319" />
+        <entry key="app/src/main/res/layout/contactus.xml" value="0.38700572580531023" />
+        <entry key="app/src/main/res/layout/dabherbmakeup.xml" value="0.3203125" />
+        <entry key="app/src/main/res/layout/dirtyhippie.xml" value="0.3203125" />
+        <entry key="app/src/main/res/layout/elatebeauty.xml" value="0.3203125" />
+        <entry key="app/src/main/res/layout/home.xml" value="0.182518115942029" />
+        <entry key="app/src/main/res/layout/izzy.xml" value="0.3203125" />
+        <entry key="app/src/main/res/layout/login.xml" value="0.35645763010218523" />
+        <entry key="app/src/main/res/layout/menu.xml" value="0.26512968299711814" />
+        <entry key="app/src/main/res/layout/myorder.xml" value="0.20652173913043478" />
+        <entry key="app/src/main/res/layout/myprofile.xml" value="0.3351449275362319" />
+        <entry key="app/src/main/res/layout/odylique.xml" value="0.3203125" />
+        <entry key="app/src/main/res/layout/plantmakeup.xml" value="0.3203125" />
+        <entry key="app/src/main/res/layout/products.xml" value="0.3351449275362319" />
+        <entry key="app/src/main/res/layout/vyanaplantbeauty.xml" value="0.3203125" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

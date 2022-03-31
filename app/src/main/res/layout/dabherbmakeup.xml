@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp">
+    <TextView
+        android:id="@+id/textViewDabHerbMakeup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dab Herb Makeup"
+        android:backgroundTint="@color/teal_700"
+        android:textSize="35dp"
+        android:textColor="@color/teal_700"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="“Welcome to the healthiest decision you've made yet. If you've come in pursuit of your best skin, then you've found a friend in us.”"
+        android:textStyle="italic"
+        android:textColor="@color/teal_300"
+        android:textSize="18dp"
+        android:textAlignment="center"
+        android:paddingBottom="15dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageViewdabherbmakeupmascarabar"
+                    android:layout_width="99dp"
+                    android:layout_height="149dp"
+                    app:srcCompat="@drawable/dabherbmakeupmascarabar" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textViewmascarabar"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="10dp"
+                        android:text="Mascara Bar"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textViewmascarabardescription"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="5dp"
+                        android:text="Say goodbye to clumpy, smudgy, and flaky mascara once and for all because our gentle mascara formulas just keep getting better. With just a swish of your wand, create fuller, fluffier, and feathery lashes and brows." />
+
+                    <Button
+                        android:id="@+id/buttonlinkmascarabar"
+                        android:layout_width="180dp"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@color/teal_200"
+                        android:text="Link to purchase" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="190dp"
+                android:orientation="horizontal"
+                android:paddingTop="10dp">
+
+                <ImageView
+                    android:id="@+id/imageViedabhermakeuppowder"
+                    android:layout_width="99dp"
+                    android:layout_height="149dp"
+                    app:srcCompat="@drawable/dabhermakeuppowder" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textViewdabhermakeuppowder"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="10dp"
+                        android:text="Translucent Powder"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textViewdabhermakeuppowderdescription"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="5dp"
+                        android:text="Designed to specifically target acne and blemish prone skin,  you don't have to worry about future breakouts or irritations with the soothing properties of our gentle ingredients." />
+
+                    <Button
+                        android:id="@+id/buttonlinkdabhermakeuppowder"
+                        android:layout_width="180dp"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@color/teal_200"
+                        android:text="Link to purchase" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="190dp"
+                android:orientation="horizontal"
+                android:paddingTop="10dp">
+
+                <ImageView
+                    android:id="@+id/imageViewdabhermakeupfoundation"
+                    android:layout_width="99dp"
+                    android:layout_height="149dp"
+                    app:srcCompat="@drawable/dabhermakeupfoundation" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textViewdabhermakeupfoundation"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="10dp"
+                        android:text="Serum Foundation"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textViewserumfoundationdescription"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="5dp"
+                        android:text="This 3-in-1 ( prime, moisturize, conceal) serum foundation is formulated with our signature infusion of a frankincense tear and our medicinal blend of herbs and non-clogging oils. Silky, easy to build,  and extra creamy!
+
+" />
+
+                    <Button
+                        android:id="@+id/buttonlinkserumfoundation"
+                        android:layout_width="180dp"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@color/teal_200"
+                        android:text="Link to purchase" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

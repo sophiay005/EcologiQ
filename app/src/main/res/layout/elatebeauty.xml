@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp">
+
+    <TextView
+        android:id="@+id/textViewElateBeauty"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Elate Beauty"
+        android:backgroundTint="@color/teal_700"
+        android:textSize="35dp"
+        android:textColor="@color/teal_700"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="“We believe that individual rituals can create a global impact, and encourage small shifts in habit and mindset that everyone can make.”"
+        android:textStyle="italic"
+        android:textColor="@color/teal_300"
+        android:textSize="18dp"
+        android:paddingBottom="15dp"
+        android:textAlignment="center"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageViewelatebeautyprepprimer"
+                    android:layout_width="99dp"
+                    android:layout_height="149dp"
+                    app:srcCompat="@drawable/elatebeautyprepprimer" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textViewprepprimer"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="10dp"
+                        android:text="Prep Primer"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textViewprepprimerdescription"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="5dp"
+                        android:text="A refillable hydrating and smoothing base to prolong your foundation, powder and other complexion essentials to last all day." />
+
+                    <Button
+                        android:id="@+id/buttonlinkprepprimer"
+                        android:layout_width="180dp"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@color/teal_200"
+                        android:text="Link to purchase" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="190dp"
+                android:orientation="horizontal"
+                android:paddingTop="10dp">
+
+                <ImageView
+                    android:id="@+id/imageViewelatebeautyeyelinepencil"
+                    android:layout_width="99dp"
+                    android:layout_height="149dp"
+                    app:srcCompat="@drawable/elatebeautyeyelinepencil" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textVieweyelinepencil"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="10dp"
+                        android:text="EyeLine Pencil"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textVieweyelinepencildescription"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="5dp"
+                        android:text="The smooth application and long-wearing hold allows you to effortlessly apply onto your eyelids, brows, or wherever your creativity guides you. Onyx is a true black with a natural-matte finish." />
+
+                    <Button
+                        android:id="@+id/buttonlinkeyelinepencil"
+                        android:layout_width="180dp"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@color/teal_200"
+                        android:text="Link to purchase" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="190dp"
+                android:orientation="horizontal"
+                android:paddingTop="10dp">
+
+                <ImageView
+                    android:id="@+id/imageViewelatebeautymascara"
+                    android:layout_width="99dp"
+                    android:layout_height="149dp"
+                    app:srcCompat="@drawable/elatebeautymascara" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textViewmascara"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="10dp"
+                        android:text="Essential Mascara"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textViewmascaradescription"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="5dp"
+                        android:text="A truly universal mascara that adds length and volume for every beauty style. With one light coat for a natural eye-opening look, to clean and smooth layers to bravely go bold- this mascara transitions effortlessly." />
+
+                    <Button
+                        android:id="@+id/buttonlinkmascara"
+                        android:layout_width="180dp"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@color/teal_200"
+                        android:text="Link to purchase" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp">
+    <TextView
+        android:id="@+id/textviewbrands"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Brands"
+        android:backgroundTint="@color/teal_700"
+        android:textSize="35dp"
+        android:textColor="@color/teal_700"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:textAlignment="center"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp">
+
+            <Button
+                android:id="@+id/buttonElateBeauty"
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:text="Elate Beauty"
+                android:backgroundTint="@color/teal_200"
+                android:layout_marginRight="5dp"/>
+
+            <Button
+                android:id="@+id/buttonAxiology"
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:text="Axiology"
+                android:backgroundTint="@color/teal_200"
+                android:layout_marginLeft="5dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/buttonOdylique"
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:text="Odylique"
+                android:backgroundTint="@color/teal_200"
+                android:layout_marginRight="5dp"/>
+
+            <Button
+                android:id="@+id/buttonDabHerbMakeup"
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:text="Dab Herb Makeup"
+                android:backgroundTint="@color/teal_200"
+                android:layout_marginLeft="5dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp">
+
+            <Button
+                android:id="@+id/buttonPlantMakeup"
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:text="Plant Makeup"
+                android:backgroundTint="@color/teal_200"
+                android:layout_marginRight="5dp"/>
+
+            <Button
+                android:id="@+id/buttonVyanaPlantBeauty"
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:text="Vyana Plant"
+                android:backgroundTint="@color/teal_200"
+                android:layout_marginLeft="5dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp">
+
+            <Button
+                android:id="@+id/buttonDirtyHippie"
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:text="Dirty Hippie"
+                android:backgroundTint="@color/teal_200"
+                android:layout_marginRight="5dp"/>
+
+            <Button
+                android:id="@+id/buttonIzzy"
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:text="Izzy"
+                android:backgroundTint="@color/teal_200"
+                android:layout_marginLeft="5dp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/buttonCreatebrand"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Enter your brand"
+        android:backgroundTint="@color/teal_300"/>
+
+
+</LinearLayout>

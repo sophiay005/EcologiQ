@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="30dp">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:scaleType="centerCrop"
+        android:layout_marginBottom="30dp"
+        android:layout_marginTop="33dp"
+        android:layout_marginRight="20dp"
+        app:srcCompat="@drawable/logo" />
+
+            <Button
+                android:id="@+id/buttonmyprofile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:backgroundTint="@color/teal_800"
+                android:text="My Profile" />
+
+            <Button
+                android:id="@+id/buttonmyorder"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:layout_marginBottom="20dp"
+                android:backgroundTint="@color/teal_700"
+                android:text="My Order" />
+
+            <Button
+                android:id="@+id/buttonbrands"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:layout_marginBottom="20dp"
+                android:backgroundTint="@color/teal_700"
+                android:text="Brands" />
+
+            <Button
+                android:id="@+id/buttoncontactus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:layout_marginBottom="20dp"
+                android:backgroundTint="@color/teal_800"
+                android:text="Contact Us" />
+
+</LinearLayout>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp">
+
+    <TextView
+        android:id="@+id/textViewAxiology"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Axiology"
+        android:backgroundTint="@color/teal_700"
+        android:textSize="35dp"
+        android:textColor="@color/teal_700"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="“We love our planet more than makeup so we try to make our products as low waste as possible.”"
+        android:textStyle="italic"
+        android:textColor="@color/teal_300"
+        android:textSize="18dp"
+        android:paddingBottom="15dp"
+        android:textAlignment="center"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageViewaxiologybalmie"
+                    android:layout_width="99dp"
+                    android:layout_height="149dp"
+                    app:srcCompat="@drawable/axiologybalmie" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textViewveganmultiusebalmie"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="10dp"
+                        android:text="Vegan Multi-use Balmie"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textViewveganmultiusebalmiedescription"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="5dp"
+                        android:text="Planet-friendly, wear-anywhere crayons that hydrate. Packed with oils, butters, and antioxidants such as elderberry, hemp, and plum oil to nourish, heal and hydrate skin." />
+
+                    <Button
+                        android:id="@+id/buttonlinkveganmultiusebalmie"
+                        android:layout_width="180dp"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@color/teal_200"
+                        android:text="Link to purchase" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:orientation="horizontal"
+                android:paddingTop="10dp">
+
+                <ImageView
+                    android:id="@+id/imageViewaxiologylipstick"
+                    android:layout_width="99dp"
+                    android:layout_height="149dp"
+                    app:srcCompat="@drawable/axiologylipstick" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textViewaxiologylipstick"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="10dp"
+                        android:text="Vegan Lipstick"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textViewaxiologylipstickdescription"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="5dp"
+                        android:text="These super moisturizing and nourishing lipsticks are clean, vegan and cruelty-free. All lipsticks are made with only 10 ingredients such as kokum butter, avocado, and coconut oil which give these lipsticks and crayons their super silky, buttery texture." />
+
+                    <Button
+                        android:id="@+id/buttonaddtoorder2"
+                        android:layout_width="180dp"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@color/teal_200"
+                        android:text="Link to purchase" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

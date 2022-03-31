@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp">
+    <TextView
+        android:id="@+id/textViewOdylique"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Odylique"
+        android:backgroundTint="@color/teal_700"
+        android:textSize="35dp"
+        android:textColor="@color/teal_700"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="“Odylique was one of the first companies to create certified organic cosmetics and formulate the purest cosmetics possible.”"
+        android:textStyle="italic"
+        android:textColor="@color/teal_300"
+        android:textSize="18dp"
+        android:paddingBottom="15dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageViewelatebeautyprepprimer"
+                    android:layout_width="99dp"
+                    android:layout_height="149dp"
+                    app:srcCompat="@drawable/odyliquelipstick" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textViewminerallipstick"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="10dp"
+                        android:text="Mineral Lipstick"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textViewcdescription"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="5dp"
+                        android:text="Our creamy, nourishing, natural lipsticks are bursting with organic plant oils and butters including jojoba and Fairtrade shea to provide a moisturising vitamin-boost to your lips." />
+
+                    <Button
+                        android:id="@+id/buttonlinkminerallipstick"
+                        android:layout_width="180dp"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@color/teal_200"
+                        android:text="Link to purchase" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="190dp"
+                android:orientation="horizontal"
+                android:paddingTop="10dp">
+
+                <ImageView
+                    android:id="@+id/imageViewelatebeautyeyelinepencil"
+                    android:layout_width="99dp"
+                    android:layout_height="149dp"
+                    app:srcCompat="@drawable/odyliqueconcealer" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textViewmineralconcealer"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="10dp"
+                        android:text="Mineral Concealer"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textViewmineralconcealerdescription"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="5dp"
+                        android:text="With silky virgin coconut oil, mineral colour and soothing organic herbs of sea buckthorn and calendula, Odylique concealer glides on easily, and helps to calm irritable skin and hide any blemishes or imperfections." />
+
+                    <Button
+                        android:id="@+id/buttonlinkmineralconcealer"
+                        android:layout_width="180dp"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@color/teal_200"
+                        android:text="Link to purchase" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="190dp"
+                android:orientation="horizontal"
+                android:paddingTop="10dp">
+
+                <ImageView
+                    android:id="@+id/imageViewodyliqueeyeshadow"
+                    android:layout_width="99dp"
+                    android:layout_height="149dp"
+                    app:srcCompat="@drawable/odyliqueeyeshadow" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textViewmineraleyeshadow"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="10dp"
+                        android:text="Mineral Eyeshadow"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textViewmineraleyeshadowdescription"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="5dp"
+                        android:text="Odylique’s naturally pigmented eyeshadows aren’t only gorgeous, but ultra gentle on the delicate eye area. Bark is a rich, matte, deep brown to add subtle depth and emphasis. " />
+
+                    <Button
+                        android:id="@+id/buttonlinkeyeshadow"
+                        android:layout_width="180dp"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@color/teal_200"
+                        android:text="Link to purchase" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

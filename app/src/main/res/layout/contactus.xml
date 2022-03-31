@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp">
+
+
+    <TextView
+        android:id="@+id/texviewcontactus"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:text="Contact Us"
+        android:backgroundTint="@color/teal_800"
+        android:textSize="35dp"
+        android:textAlignment="center"/>
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name"
+        android:backgroundTint="@color/teal_200"
+        android:padding="17dp"
+        android:textSize="18dp"
+        android:textColor="@color/teal_300"
+        android:background="@color/teal_700"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="15dp"/>
+    <EditText
+        android:id="@+id/editTextTextEmailAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:text="Email Address"
+        android:backgroundTint="@color/teal_200"
+        android:padding="17dp"
+        android:textSize="18dp"
+        android:textColor="@color/teal_300"
+        android:background="@color/teal_700"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="15dp"/>
+    <EditText
+        android:id="@+id/editTextTextMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Message"
+        android:backgroundTint="@color/teal_700"
+        android:padding="57dp"
+        android:textSize="18dp"
+        android:textColor="@color/teal_300"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="15dp"/>
+    <Button
+        android:id="@+id/buttonsubmit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:backgroundTint="@color/teal_200"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginRight="70dp"
+        android:layout_marginLeft="70dp"/>
+    <TextView
+        android:id="@+id/textviewordirectlycontactusby"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Or directly contact us by"
+        android:backgroundTint="@color/teal_700"
+        android:textSize="27dp"
+        android:textColor="@color/teal_700"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"/>
+    <TextView
+        android:id="@+id/textviewphone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Phone: +82 10 5308 8716"
+        android:backgroundTint="@color/teal_700"
+        android:textSize="18dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"/>
+    <TextView
+        android:id="@+id/textviewemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email: sophiay005@gmail.com"
+        android:backgroundTint="@color/teal_200"
+        android:textSize="18dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"/>
+    <TextView
+        android:id="@+id/textviewinstagram"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Instagram: @sophiyyoon"
+        android:backgroundTint="@color/teal_200"
+        android:textSize="18dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="15dp"/>
+
+</LinearLayout>

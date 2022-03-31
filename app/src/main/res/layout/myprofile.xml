@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textvoiewmyprofile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"
+                android:backgroundTint="@color/teal_700"
+                android:text="My Profile"
+                android:textAlignment="center"
+                android:textColor="@color/teal_700"
+                android:textSize="35dp" />
+
+            <TextView
+                android:id="@+id/textviewskintype"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:backgroundTint="@color/teal_300"
+                android:text="Skin Type"
+                android:textSize="22dp" />
+
+            <Spinner
+                android:id="@+id/spinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textviewskinconcerns"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:backgroundTint="@color/teal_300"
+                android:text="Skin Concerns"
+                android:textSize="22dp" />
+
+            <Spinner
+                android:id="@+id/spinner2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textviewpreferredfinish"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:backgroundTint="@color/teal_300"
+                android:text="Preferred Finish"
+                android:textSize="22dp" />
+
+            <Spinner
+                android:id="@+id/spinner3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textviewpriority"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:backgroundTint="@color/teal_300"
+                android:text="Select Priority"
+                android:textSize="22dp" />
+
+            <CheckBox
+                android:id="@+id/waterresistant"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Water Resistant"
+                android:textColor="@color/teal_300"
+                android:textSize="18dp" />
+
+            <CheckBox
+                android:id="@+id/easyremoval"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Easy Removal"
+                android:textColor="@color/teal_300"
+                android:textSize="18dp" />
+
+            <CheckBox
+                android:id="@+id/highcoverage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="High Coverage"
+                android:textColor="@color/teal_300"
+                android:textSize="18dp" />
+
+            <CheckBox
+                android:id="@+id/maskproof"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Mask Proof"
+                android:textColor="@color/teal_300"
+                android:textSize="18dp" />
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="22dp"
+                android:layout_marginRight="70dp"
+                android:layout_marginBottom="15dp"
+                android:backgroundTint="@color/teal_200"
+                android:text="Find your match" />
+
+            <Button
+                android:id="@+id/button9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="70dp"
+                android:layout_marginBottom="15dp"
+                android:backgroundTint="@color/teal_200"
+                android:text="Take quiz again" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
