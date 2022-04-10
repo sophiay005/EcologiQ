@@ -1,8 +1,173 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="15dp">
+    <WebView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id = "@+id/webviewdirtyhippie"/>
+
+    <TextView
+        android:id="@+id/textViewdirtyhippie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dirty Hippie"
+        android:backgroundTint="@color/teal_700"
+        android:textSize="35dp"
+        android:textColor="@color/teal_700"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="“Less waste, naturally.\nGood for you, good for the planet, good for your pocket”"
+        android:textStyle="italic"
+        android:textColor="@color/teal_300"
+        android:textSize="18dp"
+        android:textAlignment="center"
+        android:paddingBottom="15dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageViewdirtyhippielipbalm"
+                    android:layout_width="99dp"
+                    android:layout_height="149dp"
+                    app:srcCompat="@drawable/dirtyhippielipbalm" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textViewlipbalm"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="10dp"
+                        android:text="Lip Balm"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textViewlipbalmdescription"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="5dp"
+                        android:text="Gorgeous long lasting lip balm in compostable tube. Ingredients: Virgin Organic Coconut Oil, Organic Jojoba Oil, Organic Beeswax, Vtamin E, Alkanet Root Powder (natural tint), Lavender Essential Oil (healing)." />
+
+                    <Button
+                        android:id="@+id/buttonlinklipbalm"
+                        android:layout_width="180dp"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@color/teal_200"
+                        android:text="Link to purchase" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="190dp"
+                android:orientation="horizontal"
+                android:paddingTop="10dp">
+
+                <ImageView
+                    android:id="@+id/imageViewdirtyhippiemascara"
+                    android:layout_width="99dp"
+                    android:layout_height="149dp"
+                    app:srcCompat="@drawable/dirtyhippiemascara" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textViewdirtyhippiemascara"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="10dp"
+                        android:text="Levitate Mascara"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textViewlevitatemascaradescription"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="5dp"
+                        android:text="A vegan, cruelty free and ethical mascara, made with love in Italy. It is super black, lengthening and nourishing with a hint of coconut oil." />
+
+                    <Button
+                        android:id="@+id/buttonlinklevitatemascara"
+                        android:layout_width="180dp"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@color/teal_200"
+                        android:text="Link to purchase" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="190dp"
+                android:orientation="horizontal"
+                android:paddingTop="10dp">
+
+                <ImageView
+                    android:id="@+id/imageViewdirtyhippielipstickcrayon"
+                    android:layout_width="99dp"
+                    android:layout_height="149dp"
+                    app:srcCompat="@drawable/dirtyhippielipstickcrayon" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textViewdirtyhippielipstickcrayon"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="10dp"
+                        android:text="Lipstick Crayon"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textViewlipstickcrayondescription"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="5dp"
+                        android:text="New full coverage lipstick crayons. High pigment, creamy soft lip colour with long lasting demi-matte finish. Hydrating, 100% natural origin and plant based Organic coconut, Vitamin E Vegan, Cruelty Free."/>
+
+                    <Button
+                        android:id="@+id/buttonlinklipstickcrayon"
+                        android:layout_width="180dp"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@color/teal_200"
+                        android:text="Link to purchase" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
 
 </LinearLayout>

@@ -1,17 +1,266 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:padding="15dp">
+    <WebView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id = "@+id/webviewproducts"/>
+
     <TextView
         android:id="@+id/textView3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Products"
+        android:text="Your Match"
         android:backgroundTint="@color/teal_700"
         android:textSize="35dp"
         android:textColor="@color/teal_700"
         android:layout_marginTop="15dp"
         android:layout_marginBottom="15dp"
         android:textAlignment="center"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <androidx.gridlayout.widget.GridLayout
+                android:layout_width="390dp"
+                android:layout_height="wrap_content"
+                android:padding="10dp">
+
+                <ImageButton
+                    android:id="@+id/imageButtonaxiologylipstick"
+                    android:layout_width="120dp"
+                    android:layout_height="150dp"
+                    android:scaleType="fitCenter"
+                    android:backgroundTint="@color/white"
+                    app:srcCompat="@drawable/axiologylipstick" />
+
+                <ImageButton
+                    android:id="@+id/imageButtonaxiologybalmie"
+                    android:layout_width="120dp"
+                    android:layout_height="150dp"
+                    android:scaleType="fitCenter"
+                    android:backgroundTint="@color/white"
+                    app:layout_column="1"
+                    app:layout_row="0"
+                    app:srcCompat="@drawable/axiologybalmie" />
+
+                <ImageButton
+                    android:id="@+id/imageButtondabherbmakeupmascarabar"
+                    android:layout_width="120dp"
+                    android:layout_height="150dp"
+                    android:scaleType="fitCenter"
+                    android:backgroundTint="@color/white"
+                    app:layout_column="2"
+                    app:layout_row="0"
+                    app:srcCompat="@drawable/dabherbmakeupmascarabar" />
+
+                <ImageButton
+                    android:id="@+id/imageButtondabhermakeupfoundation"
+                    android:layout_width="120dp"
+                    android:layout_height="150dp"
+                    android:scaleType="fitCenter"
+                    android:backgroundTint="@color/white"
+                    app:layout_column="0"
+                    app:layout_row="1"
+                    app:srcCompat="@drawable/dabhermakeupfoundation" />
+
+                <ImageButton
+                    android:id="@+id/imageButtondabhermakeuppowder"
+                    android:layout_width="120dp"
+                    android:layout_height="150dp"
+                    android:scaleType="fitCenter"
+                    android:backgroundTint="@color/white"
+                    app:srcCompat="@drawable/dabhermakeuppowder" />
+
+                <ImageButton
+                    android:id="@+id/imageButtondirtyhippielipbalm"
+                    android:layout_width="120dp"
+                    android:layout_height="150dp"
+                    android:scaleType="fitCenter"
+                    android:backgroundTint="@color/white"
+                    app:srcCompat="@drawable/dirtyhippielipbalm" />
+
+                <ImageButton
+                    android:id="@+id/imageButtondirtyhippielipstickcrayon"
+                    android:layout_width="120dp"
+                    android:layout_height="150dp"
+                    android:scaleType="fitCenter"
+                    android:backgroundTint="@color/white"
+                    app:layout_column="0"
+                    app:layout_row="2"
+                    app:srcCompat="@drawable/dirtyhippielipstickcrayon" />
+
+                <ImageButton
+                    android:id="@+id/imageButtondirtyhippiemascara"
+                    android:layout_width="120dp"
+                    android:layout_height="150dp"
+                    android:scaleType="fitCenter"
+                    android:backgroundTint="@color/white"
+                    app:layout_column="1"
+                    app:layout_row="2"
+                    app:srcCompat="@drawable/dirtyhippiemascara" />
+
+                <ImageButton
+                    android:id="@+id/imageButtonelatebeautyeyelinepencil"
+                    android:layout_width="120dp"
+                    android:layout_height="150dp"
+                    android:scaleType="fitCenter"
+                    app:layout_column="2"
+                    app:layout_row="2"
+                    app:srcCompat="@drawable/elatebeautyeyelinepencil" />
+
+                <ImageButton
+                    android:id="@+id/imageButtonelatebeautymascara"
+                    android:layout_width="120dp"
+                    android:layout_height="150dp"
+                    android:scaleType="fitCenter"
+                    android:backgroundTint="@color/white"
+                    app:layout_column="0"
+                    app:layout_row="3"
+                    app:srcCompat="@drawable/elatebeautymascara" />
+
+                <ImageButton
+                    android:id="@+id/imageButtonelatebeautyprepprimer"
+                    android:layout_width="120dp"
+                    android:layout_height="150dp"
+                    android:scaleType="fitCenter"
+                    android:backgroundTint="@color/white"
+                    app:layout_column="1"
+                    app:layout_row="3"
+                    app:srcCompat="@drawable/elatebeautyprepprimer" />
+
+                <ImageButton
+                    android:id="@+id/imageButtonfatandthemoonbeamhighlighter"
+                    android:layout_width="120dp"
+                    android:layout_height="150dp"
+                    android:scaleType="fitCenter"
+                    android:backgroundTint="@color/white"
+                    app:layout_column="2"
+                    app:layout_row="3"
+                    app:srcCompat="@drawable/fatandthemoonbeamhighlighter" />
+
+                <ImageButton
+                    android:id="@+id/imageButtonfatandthemooneyecoal"
+                    android:layout_width="120dp"
+                    android:layout_height="150dp"
+                    android:scaleType="fitCenter"
+                    android:backgroundTint="@color/white"
+                    app:layout_column="0"
+                    app:layout_row="4"
+                    app:srcCompat="@drawable/fatandthemooneyecoal" />
+
+                <ImageButton
+                    android:id="@+id/imageButtonfatandthemoonlippaint"
+                    android:layout_width="120dp"
+                    android:layout_height="150dp"
+                    android:scaleType="fitCenter"
+                    android:backgroundTint="@color/white"
+                    app:layout_column="1"
+                    app:layout_row="4"
+                    app:srcCompat="@drawable/fatandthemoonlippaint" />
+
+                <ImageButton
+                    android:id="@+id/imageButtonodyliqueconcealer"
+                    android:layout_width="120dp"
+                    android:layout_height="150dp"
+                    android:scaleType="fitCenter"
+                    android:backgroundTint="@color/white"
+                    app:layout_column="2"
+                    app:layout_row="4"
+                    app:srcCompat="@drawable/odyliqueconcealer" />
+
+                <ImageButton
+                    android:id="@+id/imageButtonodyliqueeyeshadow"
+                    android:layout_width="120dp"
+                    android:layout_height="150dp"
+                    android:backgroundTint="@color/white"
+                    android:scaleType="fitCenter"
+                    app:layout_column="0"
+                    app:layout_row="5"
+                    app:srcCompat="@drawable/odyliqueeyeshadow" />
+
+                <ImageButton
+                    android:id="@+id/imageButtonodyliquelipstick"
+                    android:layout_width="120dp"
+                    android:layout_height="150dp"
+                    android:backgroundTint="@color/white"
+                    android:scaleType="fitCenter"
+                    app:layout_column="1"
+                    app:layout_row="5"
+                    app:srcCompat="@drawable/odyliquelipstick" />
+
+                <ImageButton
+                    android:id="@+id/imageButtonplantmakeupbrowgloss"
+                    android:layout_width="120dp"
+                    android:layout_height="150dp"
+                    android:backgroundTint="@color/white"
+                    android:scaleType="fitCenter"
+                    app:layout_column="2"
+                    app:layout_row="5"
+                    app:srcCompat="@drawable/plantmakeupbrowgloss" />
+
+                <ImageButton
+                    android:id="@+id/imageButtonplantmakeupcheekliptint"
+                    android:layout_width="120dp"
+                    android:layout_height="150dp"
+                    android:backgroundTint="@color/white"
+                    android:scaleType="fitCenter"
+                    app:layout_column="0"
+                    app:layout_row="6"
+                    app:srcCompat="@drawable/plantmakeupcheekliptint" />
+
+                <ImageButton
+                    android:id="@+id/imageButtonplantmakeupshimmermist"
+                    android:layout_width="120dp"
+                    android:layout_height="150dp"
+                    android:backgroundTint="@color/white"
+                    android:scaleType="fitCenter"
+                    app:layout_column="1"
+                    app:layout_row="6"
+                    app:srcCompat="@drawable/plantmakeupshimmermist" />
+
+                <ImageButton
+                    android:id="@+id/imageButtonriverorganicsblushstick"
+                    android:layout_width="120dp"
+                    android:layout_height="150dp"
+                    android:backgroundTint="@color/white"
+                    android:scaleType="fitCenter"
+                    app:layout_column="2"
+                    app:layout_row="6"
+                    app:srcCompat="@drawable/riverorganicsblushstick" />
+
+                <ImageButton
+                    android:id="@+id/imageButtonriverorganicsconcealer"
+                    android:layout_width="120dp"
+                    android:layout_height="150dp"
+                    android:backgroundTint="@color/white"
+                    android:scaleType="fitCenter"
+                    app:layout_column="0"
+                    app:layout_row="7"
+                    app:srcCompat="@drawable/riverorganicsconcealer" />
+
+                <ImageButton
+                    android:id="@+id/imageButtonriverorganicsmascara"
+                    android:layout_width="120dp"
+                    android:layout_height="150dp"
+                    android:backgroundTint="@color/white"
+                    android:scaleType="fitCenter"
+                    app:layout_column="1"
+                    app:layout_row="7"
+                    app:srcCompat="@drawable/riverorganicsmascara" />
+
+            </androidx.gridlayout.widget.GridLayout>
+        </LinearLayout>
+    </ScrollView>
+
 </LinearLayout>

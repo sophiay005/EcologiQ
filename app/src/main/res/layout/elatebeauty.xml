@@ -5,7 +5,10 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="15dp">
-
+    <WebView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id = "@+id/webviewelatebeauty"/>
 
     <TextView
         android:id="@+id/textViewElateBeauty"
@@ -29,11 +32,6 @@
         android:textSize="18dp"
         android:paddingBottom="15dp"
         android:textAlignment="center"/>
-
-    <WebView
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:id = "@+id/webview"/>
 
     <ScrollView
         android:layout_width="match_parent"

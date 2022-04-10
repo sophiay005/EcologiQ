@@ -5,6 +5,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="15dp">
+    <WebView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id = "@+id/webviewfatandthemoon"/>
+
     <TextView
         android:id="@+id/textViewDabHerbMakeup"
         android:layout_width="match_parent"
@@ -21,7 +26,7 @@
         android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="“Intention, process, and purpose guides us to plug back into the cosmic matrix which is exponentially bigger than the sum of its parts.”"
+        android:text="“Rest assured that, yes, we are most definitely a Coven of Witches.”"
         android:textStyle="italic"
         android:textColor="@color/teal_300"
         android:textSize="18dp"
@@ -43,10 +48,10 @@
                 android:orientation="horizontal">
 
                 <ImageView
-                    android:id="@+id/imageViewdabherbmakeupmascarabar"
+                    android:id="@+id/imageViewfatandthemoonlippaint"
                     android:layout_width="99dp"
                     android:layout_height="149dp"
-                    app:srcCompat="@drawable/dabherbmakeupmascarabar" />
+                    app:srcCompat="@drawable/fatandthemoonlippaint" />
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -54,22 +59,22 @@
                     android:orientation="vertical">
 
                     <TextView
-                        android:id="@+id/textViewmascarabar"
+                        android:id="@+id/textViewlippaint"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:paddingBottom="10dp"
-                        android:text="Mascara Bar"
+                        android:text="Dusk Lip Paint"
                         android:textStyle="bold" />
 
                     <TextView
-                        android:id="@+id/textViewmascarabardescription"
+                        android:id="@+id/textViewlippaintdescription"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:paddingBottom="5dp"
-                        android:text="Say goodbye to clumpy, smudgy, and flaky mascara once and for all because our gentle mascara formulas just keep getting better. With just a swish of your wand, create fuller, fluffier, and feathery lashes and brows." />
+                        android:text="Dusk is a well traveled 60’s bombshell, a harmony of a little pink and a little lavender. For the pucker and the cheeks. The matte color is very potent and has incredible staying power." />
 
                     <Button
-                        android:id="@+id/buttonlinkmascarabar"
+                        android:id="@+id/buttonlinklippaint"
                         android:layout_width="180dp"
                         android:layout_height="wrap_content"
                         android:backgroundTint="@color/teal_200"
@@ -85,10 +90,10 @@
                 android:paddingTop="10dp">
 
                 <ImageView
-                    android:id="@+id/imageViedabhermakeuppowder"
+                    android:id="@+id/imageViewfatandthemooneyecoal"
                     android:layout_width="99dp"
                     android:layout_height="149dp"
-                    app:srcCompat="@drawable/dabhermakeuppowder" />
+                    app:srcCompat="@drawable/fatandthemooneyecoal" />
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -96,22 +101,22 @@
                     android:orientation="vertical">
 
                     <TextView
-                        android:id="@+id/textViewdabhermakeuppowder"
+                        android:id="@+id/textViewfatandthemooneyecoal"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:paddingBottom="10dp"
-                        android:text="Translucent Powder"
+                        android:text="Eye Coal"
                         android:textStyle="bold" />
 
                     <TextView
-                        android:id="@+id/textViewdabhermakeuppowderdescription"
+                        android:id="@+id/textVieweyecoaldescription"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:paddingBottom="5dp"
-                        android:text="Designed to specifically target acne and blemish prone skin,  you don't have to worry about future breakouts or irritations with the soothing properties of our gentle ingredients." />
+                        android:text="A hue inspired by a dear teacher friend in India, who uses the charcoal made from burned puja and ghee to apply to the eyes. A rich hue reminiscent of lava rocks and tourmaline crystals." />
 
                     <Button
-                        android:id="@+id/buttonlinkdabhermakeuppowder"
+                        android:id="@+id/buttonlinkeyecoal"
                         android:layout_width="180dp"
                         android:layout_height="wrap_content"
                         android:backgroundTint="@color/teal_200"
@@ -127,10 +132,10 @@
                 android:paddingTop="10dp">
 
                 <ImageView
-                    android:id="@+id/imageViewdabhermakeupfoundation"
+                    android:id="@+id/imageViewfatandthemoonbeamhighlighter"
                     android:layout_width="99dp"
                     android:layout_height="149dp"
-                    app:srcCompat="@drawable/dabhermakeupfoundation" />
+                    app:srcCompat="@drawable/fatandthemoonbeamhighlighter" />
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -138,24 +143,22 @@
                     android:orientation="vertical">
 
                     <TextView
-                        android:id="@+id/textViewdabhermakeupfoundation"
+                        android:id="@+id/textViewfatandthemoonbeamhighlighter"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:paddingBottom="10dp"
-                        android:text="Serum Foundation"
+                        android:text="Beam Highlighter"
                         android:textStyle="bold" />
 
                     <TextView
-                        android:id="@+id/textViewserumfoundationdescription"
+                        android:id="@+id/textViewbeamhighlighterdescription"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:paddingBottom="5dp"
-                        android:text="This 3-in-1 ( prime, moisturize, conceal) serum foundation is formulated with our signature infusion of a frankincense tear and our medicinal blend of herbs and non-clogging oils. Silky, easy to build,  and extra creamy!
-
-" />
+                        android:text="In the spirit of aligning with that place inside all of us that wants to shine, we take the name ‘highlighter’ very seriously—literally and figuratively. Apply this light and silky mineral-based glimmer anywhere you want to glow."/>
 
                     <Button
-                        android:id="@+id/buttonlinkserumfoundation"
+                        android:id="@+id/buttonlinkbeamhighlighter"
                         android:layout_width="180dp"
                         android:layout_height="wrap_content"
                         android:backgroundTint="@color/teal_200"

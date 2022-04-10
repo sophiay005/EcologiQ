@@ -13,31 +13,42 @@ import android.widget.Button;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
-public class Axiology extends AppCompatActivity {
+public class RiverOrganics extends AppCompatActivity {
     @SuppressLint("SetJavaScriptEnabled")
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.axiology);
+        setContentView(R.layout.riverorganics);
 
-        WebView myWebView = (WebView) findViewById(R.id.webviewaxiology);
+        WebView myWebView = (WebView) findViewById(R.id.webviewriverorganics);
 
-        Button buttonlinkveganmultiusebalmie = findViewById(R.id.buttonlinkveganmultiusebalmie);
-        buttonlinkveganmultiusebalmie.setOnClickListener(new View.OnClickListener() {
+        Button buttonlinkconcealer = findViewById(R.id.buttonlinkconcealer);
+        buttonlinkconcealer.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                myWebView.loadUrl("https://axiologybeauty.com/collections/balmies/products/cotton-candy-skies-vegan-balmies-set");
+                myWebView.loadUrl("https://riverorganics.org/products/copy-of-zero-waste-concealer");
                 WebSettings webSettings = myWebView.getSettings();
                 webSettings.setJavaScriptEnabled(true);
                 myWebView.setWebViewClient(new WebViewClientClass());
             }
         });
 
-        Button buttonlinkveganlipstick = findViewById(R.id.buttonlinkveganlipstick);
-        buttonlinkveganlipstick.setOnClickListener(new View.OnClickListener() {
+        Button buttonlinkblushstick = findViewById(R.id.buttonlinkblushstick);
+        buttonlinkblushstick.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                myWebView.loadUrl("https://axiologybeauty.com/collections/best-sellers/products/the-goodness-vegan-lipstick");
+                myWebView.loadUrl("https://riverorganics.org/products/zero-waste-vegan-blush-stick");
+                WebSettings webSettings = myWebView.getSettings();
+                webSettings.setJavaScriptEnabled(true);
+                myWebView.setWebViewClient(new WebViewClientClass());
+            }
+        });
+
+        Button buttonlinkmascara = findViewById(R.id.buttonlinkmascara);
+        buttonlinkmascara.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                myWebView.loadUrl("https://riverorganics.org/products/vegan-zero-waste-black-mascara");
                 WebSettings webSettings = myWebView.getSettings();
                 webSettings.setJavaScriptEnabled(true);
                 myWebView.setWebViewClient(new WebViewClientClass());
@@ -46,6 +57,7 @@ public class Axiology extends AppCompatActivity {
     }
 
     private class WebViewClientClass extends WebViewClient {//페이지 이동
+
         @Override
         public boolean shouldOverrideUrlLoading(WebView view, WebResourceRequest wrr) {
             Log.d("check URL", String.valueOf(wrr.getUrl()));
