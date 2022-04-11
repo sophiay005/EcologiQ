@@ -8,7 +8,6 @@ import android.webkit.WebResourceRequest;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
-import android.widget.Button;
 import android.widget.ImageButton;
 
 import androidx.annotation.Nullable;
@@ -23,19 +22,20 @@ public class FindYourMatch extends AppCompatActivity {
 
         WebView myWebView = (WebView) findViewById(R.id.webviewfindyourmatch);
 
-        ImageButton imageButtonaxiologylipstick = findViewById(R.id.imageButtonaxiologylipstick);
-        imageButtonaxiologylipstick.setOnClickListener(new View.OnClickListener() {
+        ImageButton imageButtonaxiologylipstick1 = findViewById(R.id.imageButtonaxiologylipstick1);
+        imageButtonaxiologylipstick1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                myWebView.loadUrl("hhttps://axiologybeauty.com/collections/best-sellers/products/the-goodness-vegan-lipstick");
+                myWebView.setVisibility(View.VISIBLE);
+                myWebView.loadUrl("https://axiologybeauty.com/collections/best-sellers/products/the-goodness-vegan-lipstick");
                 WebSettings webSettings = myWebView.getSettings();
                 webSettings.setJavaScriptEnabled(true);
                 myWebView.setWebViewClient(new WebViewClientClass());
             }
         });
 
-        ImageButton imageButtondabherbmakeupmascarabar = findViewById(R.id.imageButtondabherbmakeupmascarabar);
-        imageButtondabherbmakeupmascarabar.setOnClickListener(new View.OnClickListener() {
+        ImageButton imageButtondabherbmakeupmascarabar1 = findViewById(R.id.imageButtondabherbmakeupmascarabar1);
+        imageButtondabherbmakeupmascarabar1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 myWebView.loadUrl("https://www.dabhms.com/product-page/organic-aloe-mascara-bar-cake-mascara-zero-waste-mascara");
@@ -45,8 +45,8 @@ public class FindYourMatch extends AppCompatActivity {
             }
         });
 
-        ImageButton imageButtondabhermakeupfoundation = findViewById(R.id.imageButtondabhermakeupfoundation);
-        imageButtondabhermakeupfoundation.setOnClickListener(new View.OnClickListener() {
+        ImageButton imageButtondabhermakeupfoundation1 = findViewById(R.id.imageButtondabhermakeupfoundation1);
+        imageButtondabhermakeupfoundation1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 myWebView.loadUrl("https://www.dabhms.com/product-page/serum-foundation");
@@ -56,8 +56,8 @@ public class FindYourMatch extends AppCompatActivity {
             }
         });
 
-        ImageButton imageButtondirtyhippiemascara = findViewById(R.id.imageButtondirtyhippiemascara);
-        imageButtondirtyhippiemascara.setOnClickListener(new View.OnClickListener() {
+        ImageButton imageButtondirtyhippiemascara1 = findViewById(R.id.imageButtondirtyhippiemascara1);
+        imageButtondirtyhippiemascara1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 myWebView.loadUrl("https://www.dirtyhippie.co.nz/collections/all-products/products/levitate-mascara");
@@ -67,8 +67,8 @@ public class FindYourMatch extends AppCompatActivity {
             }
         });
 
-        ImageButton imageButtonelatebeautyeyelinepencil = findViewById(R.id.imageButtonelatebeautyeyelinepencil);
-        imageButtonelatebeautyeyelinepencil.setOnClickListener(new View.OnClickListener() {
+        ImageButton imageButtonelatebeautyeyelinepencil1 = findViewById(R.id.imageButtonelatebeautyeyelinepencil1);
+        imageButtonelatebeautyeyelinepencil1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 myWebView.loadUrl("https://elatebeauty.com/collections/best-sellers/products/eyeline-pencil-onyx");
@@ -78,8 +78,8 @@ public class FindYourMatch extends AppCompatActivity {
             }
         });
 
-        ImageButton imageButtonelatebeautymascara = findViewById(R.id.imageButtonelatebeautymascara);
-        imageButtonelatebeautymascara.setOnClickListener(new View.OnClickListener() {
+        ImageButton imageButtonelatebeautymascara1 = findViewById(R.id.imageButtonelatebeautymascara1);
+        imageButtonelatebeautymascara1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 myWebView.loadUrl("https://elatebeauty.com/collections/best-sellers/products/essential-mascara-black");
@@ -89,8 +89,8 @@ public class FindYourMatch extends AppCompatActivity {
             }
         });
 
-        ImageButton imageButtonfatandthemoonbeamhighlighter = findViewById(R.id.imageButtonfatandthemoonbeamhighlighter);
-        imageButtonfatandthemoonbeamhighlighter.setOnClickListener(new View.OnClickListener() {
+        ImageButton imageButtonfatandthemoonbeamhighlighter1 = findViewById(R.id.imageButtonfatandthemoonbeamhighlighter1);
+        imageButtonfatandthemoonbeamhighlighter1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 myWebView.loadUrl("https://www.fatandthemoon.com/products/lit-1");
@@ -100,8 +100,8 @@ public class FindYourMatch extends AppCompatActivity {
             }
         });
 
-        ImageButton imageButtonriverorganicsmascara = findViewById(R.id.imageButtonriverorganicsmascara);
-        imageButtonriverorganicsmascara.setOnClickListener(new View.OnClickListener() {
+        ImageButton imageButtonriverorganicsmascara1 = findViewById(R.id.imageButtonriverorganicsmascara1);
+        imageButtonriverorganicsmascara1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 myWebView.loadUrl("https://riverorganics.org/products/vegan-zero-waste-black-mascara");

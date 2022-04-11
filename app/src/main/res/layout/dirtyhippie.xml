@@ -8,7 +8,8 @@
     <WebView
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:id = "@+id/webviewdirtyhippie"/>
+        android:id = "@+id/webviewdirtyhippie"
+        android:visibility="gone"/>
 
     <TextView
         android:id="@+id/textViewdirtyhippie"
@@ -35,7 +36,7 @@
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="wrap_content">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -44,7 +45,7 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="170dp"
+                android:layout_height="wrap_content"
                 android:orientation="horizontal">
 
                 <ImageView
@@ -55,7 +56,7 @@
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    android:layout_height="wrap_content"
                     android:orientation="vertical">
 
                     <TextView
@@ -71,7 +72,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:paddingBottom="5dp"
-                        android:text="Gorgeous long lasting lip balm in compostable tube. Ingredients: Virgin Organic Coconut Oil, Organic Jojoba Oil, Organic Beeswax, Vtamin E, Alkanet Root Powder (natural tint), Lavender Essential Oil (healing)." />
+                        android:text="Gorgeous long lasting lip balm in compostable tube. Blush a Little: Virgin Organic Coconut Oil, Organic Jojoba Oil, Organic Beeswax, Vtamin E, Alkanet Root Powder (natural tint), Lavender Essential Oil (healing)." />
 
                     <Button
                         android:id="@+id/buttonlinklipbalm"
@@ -85,7 +86,7 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="190dp"
+                android:layout_height="wrap_content"
                 android:orientation="horizontal"
                 android:paddingTop="10dp">
 
@@ -97,7 +98,7 @@
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    android:layout_height="wrap_content"
                     android:orientation="vertical">
 
                     <TextView
@@ -127,7 +128,7 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="190dp"
+                android:layout_height="wrap_content"
                 android:orientation="horizontal"
                 android:paddingTop="10dp">
 
@@ -139,7 +140,7 @@
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    android:layout_height="wrap_content"
                     android:orientation="vertical">
 
                     <TextView
@@ -155,7 +156,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:paddingBottom="5dp"
-                        android:text="New full coverage lipstick crayons. High pigment, creamy soft lip colour with long lasting demi-matte finish. Hydrating, 100% natural origin and plant based Organic coconut, Vitamin E Vegan, Cruelty Free."/>
+                        android:text="New full coverage lipstick crayons. High pigment, creamy soft lip colour with long lasting demi-matte finish. Hydrating, 100% natural origin."/>
 
                     <Button
                         android:id="@+id/buttonlinklipstickcrayon"

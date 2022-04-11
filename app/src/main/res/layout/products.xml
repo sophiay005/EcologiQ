@@ -9,18 +9,12 @@
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
-
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical" >
-    <WebView
-        android:layout_width="match_parent"
-        android:layout_height="1000dp"
-        android:visibility="invisible"
-        android:id = "@+id/webviewproducts"/>
 
-    <TextView
+            <TextView
         android:id="@+id/textView3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -263,6 +257,12 @@
                     app:srcCompat="@drawable/riverorganicsmascara" />
 
             </androidx.gridlayout.widget.GridLayout>
+
+            <WebView
+                android:id="@+id/webviewproducts"
+                android:layout_width="match_parent"
+                android:layout_height="1000dp"
+                android:visibility="gone" />
         </LinearLayout>
     </ScrollView>
 

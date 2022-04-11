@@ -275,7 +275,6 @@ public class Products extends AppCompatActivity {
                 myWebView.setWebViewClient(new WebViewClientClass());
             }
         });
-
     }
 
     private class WebViewClientClass extends WebViewClient {//페이지 이동

@@ -5,10 +5,15 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="15dp">
-    <WebView
+
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:id = "@+id/webviewfindyourmatch"/>
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
 
     <TextView
         android:id="@+id/textViewfindyourmatch"
@@ -22,22 +27,13 @@
         android:layout_marginBottom="15dp"
         android:textAlignment="center"/>
 
-    <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="vertical" >
-
             <androidx.gridlayout.widget.GridLayout
                 android:layout_width="390dp"
                 android:layout_height="wrap_content"
                 android:padding="10dp">
 
                 <ImageButton
-                    android:id="@+id/imageButtonaxiologylipstick"
+                    android:id="@+id/imageButtonaxiologylipstick1"
                     android:layout_width="120dp"
                     android:layout_height="150dp"
                     android:scaleType="fitCenter"
@@ -45,7 +41,7 @@
                     app:srcCompat="@drawable/axiologylipstick" />
 
                 <ImageButton
-                    android:id="@+id/imageButtondabherbmakeupmascarabar"
+                    android:id="@+id/imageButtondabherbmakeupmascarabar1"
                     android:layout_width="120dp"
                     android:layout_height="150dp"
                     android:scaleType="fitCenter"
@@ -55,7 +51,7 @@
                     app:srcCompat="@drawable/dabherbmakeupmascarabar" />
 
                 <ImageButton
-                    android:id="@+id/imageButtondabhermakeupfoundation"
+                    android:id="@+id/imageButtondabhermakeupfoundation1"
                     android:layout_width="120dp"
                     android:layout_height="150dp"
                     android:backgroundTint="@color/white"
@@ -65,7 +61,7 @@
                     app:srcCompat="@drawable/dabhermakeupfoundation" />
 
                 <ImageButton
-                    android:id="@+id/imageButtondirtyhippiemascara"
+                    android:id="@+id/imageButtondirtyhippiemascara1"
                     android:layout_width="120dp"
                     android:layout_height="150dp"
                     android:backgroundTint="@color/white"
@@ -75,7 +71,7 @@
                     app:srcCompat="@drawable/dirtyhippiemascara" />
 
                 <ImageButton
-                    android:id="@+id/imageButtonelatebeautyeyelinepencil"
+                    android:id="@+id/imageButtonelatebeautyeyelinepencil1"
                     android:layout_width="120dp"
                     android:layout_height="150dp"
                     android:backgroundTint="@color/white"
@@ -85,7 +81,7 @@
                     app:srcCompat="@drawable/elatebeautyeyelinepencil" />
 
                 <ImageButton
-                    android:id="@+id/imageButtonelatebeautymascara"
+                    android:id="@+id/imageButtonelatebeautymascara1"
                     android:layout_width="120dp"
                     android:layout_height="150dp"
                     android:backgroundTint="@color/white"
@@ -96,7 +92,7 @@
 
 
                 <ImageButton
-                    android:id="@+id/imageButtonfatandthemoonbeamhighlighter"
+                    android:id="@+id/imageButtonfatandthemoonbeamhighlighter1"
                     android:layout_width="120dp"
                     android:layout_height="150dp"
                     android:backgroundTint="@color/white"
@@ -106,7 +102,7 @@
                     app:srcCompat="@drawable/fatandthemoonbeamhighlighter" />
 
                 <ImageButton
-                    android:id="@+id/imageButtonriverorganicsmascara"
+                    android:id="@+id/imageButtonriverorganicsmascara1"
                     android:layout_width="120dp"
                     android:layout_height="150dp"
                     android:backgroundTint="@color/white"
@@ -116,7 +112,14 @@
                     app:srcCompat="@drawable/riverorganicsmascara" />
 
             </androidx.gridlayout.widget.GridLayout>
+
+            <WebView
+                android:layout_width="match_parent"
+                android:layout_height="1000dp"
+                android:visibility="gone"
+                android:id = "@+id/webviewfindyourmatch"/>
         </LinearLayout>
+
     </ScrollView>
 
 </LinearLayout>

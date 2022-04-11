@@ -6,58 +6,80 @@
     android:layout_height="match_parent"
     android:padding="30dp">
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="match_parent"
-        android:layout_height="150dp"
-        android:scaleType="centerCrop"
-        android:layout_marginBottom="30dp"
-        android:layout_marginTop="33dp"
-        android:layout_marginRight="20dp"
-        app:srcCompat="@drawable/logo" />
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
 
-            <Button
-                android:id="@+id/buttonmyprofile"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="20dp"
-                android:backgroundTint="@color/teal_800"
-                android:text="My Profile" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
 
-            <Button
-                android:id="@+id/buttonlogin"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="25dp"
-                android:layout_marginBottom="20dp"
-                android:backgroundTint="@color/teal_700"
-                android:text="Login" />
+                        <ImageView
+                            android:id="@+id/imageView"
+                            android:layout_width="match_parent"
+                            android:layout_height="150dp"
+                            android:layout_marginTop="33dp"
+                            android:layout_marginRight="20dp"
+                            android:layout_marginBottom="30dp"
+                            android:scaleType="centerCrop"
+                            app:srcCompat="@drawable/logo" />
 
-            <Button
-                android:id="@+id/buttonmyorder"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="25dp"
-                android:layout_marginBottom="20dp"
-                android:backgroundTint="@color/teal_700"
-                android:text="My Order" />
+                        <Button
+                            android:id="@+id/buttonmyprofile"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="20dp"
+                            android:backgroundTint="@color/teal_800"
+                            android:text="My Profile" />
 
-            <Button
-                android:id="@+id/buttonbrands"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="25dp"
-                android:layout_marginBottom="20dp"
-                android:backgroundTint="@color/teal_700"
-                android:text="Brands" />
+                        <Button
+                            android:id="@+id/buttonlogin"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="25dp"
+                            android:layout_marginBottom="20dp"
+                            android:backgroundTint="@color/teal_700"
+                            android:text="Login" />
 
-            <Button
-                android:id="@+id/buttoncontactus"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="25dp"
-                android:layout_marginBottom="20dp"
-                android:backgroundTint="@color/teal_800"
-                android:text="Contact Us" />
+                        <Button
+                            android:id="@+id/buttonmyorder"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="25dp"
+                            android:layout_marginBottom="20dp"
+                            android:backgroundTint="@color/teal_700"
+                            android:text="My Order" />
+
+                        <Button
+                            android:id="@+id/buttonbrands"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="25dp"
+                            android:layout_marginBottom="20dp"
+                            android:backgroundTint="@color/teal_700"
+                            android:text="Brands" />
+
+                        <Button
+                            android:id="@+id/buttonproducts"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="25dp"
+                            android:layout_marginBottom="20dp"
+                            android:backgroundTint="@color/teal_700"
+                            android:text="Products" />
+
+                        <Button
+                            android:id="@+id/buttoncontactus"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="25dp"
+                            android:layout_marginBottom="20dp"
+                            android:backgroundTint="@color/teal_800"
+                            android:text="Contact Us" />
+
+                </LinearLayout>
+        </ScrollView>
+
 
 </LinearLayout>

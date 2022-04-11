@@ -19,6 +19,7 @@ public class Menu extends AppCompatActivity {
         Button loginBtn = findViewById(R.id.buttonlogin);
         Button myorderBtn = findViewById(R.id.buttonmyorder);
         Button brandsBtn = findViewById(R.id.buttonbrands);
+        Button productsBtn = findViewById(R.id.buttonproducts);
         Button contactBtn = findViewById(R.id.buttoncontactus);
 
         myprofileBtn.setOnClickListener(new View.OnClickListener() {
@@ -56,6 +57,16 @@ public class Menu extends AppCompatActivity {
             public void onClick(View view) {
                 //page change
                 Intent it = new Intent(Menu.this, Brands.class);
+                startActivity(it);
+
+            }
+        });
+
+        productsBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                //page change
+                Intent it = new Intent(Menu.this, Products.class);
                 startActivity(it);
 
             }

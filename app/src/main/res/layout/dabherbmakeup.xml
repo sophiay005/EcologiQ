@@ -8,6 +8,7 @@
     <WebView
         android:layout_width="match_parent"
         android:layout_height="50dp"
+        android:visibility="gone"
         android:id = "@+id/webviewdabhermakeup"/>
 
     <TextView
@@ -35,7 +36,7 @@
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="wrap_content">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -44,7 +45,7 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="170dp"
+                android:layout_height="wrap_content"
                 android:orientation="horizontal">
 
                 <ImageView
@@ -55,7 +56,7 @@
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    android:layout_height="wrap_content"
                     android:orientation="vertical">
 
                     <TextView
@@ -71,7 +72,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:paddingBottom="5dp"
-                        android:text="Say goodbye to clumpy, smudgy, and flaky mascara once and for all because our gentle mascara formulas just keep getting better. With just a swish of your wand, create fuller, fluffier, and feathery lashes and brows." />
+                        android:text="Say goodbye to clumpy, smudgy, and flaky mascara once and for all because our gentle mascara formulas just keep getting better. It is much more volumizing and is budge-proof for at least 8-9 hours. With just a swish of your wand, create fuller, fluffier, and feathery lashes and brows." />
 
                     <Button
                         android:id="@+id/buttonlinkmascarabar"
@@ -85,7 +86,7 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="190dp"
+                android:layout_height="wrap_content"
                 android:orientation="horizontal"
                 android:paddingTop="10dp">
 
@@ -97,7 +98,7 @@
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    android:layout_height="wrap_content"
                     android:orientation="vertical">
 
                     <TextView
@@ -127,7 +128,7 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="190dp"
+                android:layout_height="wrap_content"
                 android:orientation="horizontal"
                 android:paddingTop="10dp">
 
@@ -139,7 +140,7 @@
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    android:layout_height="wrap_content"
                     android:orientation="vertical">
 
                     <TextView
