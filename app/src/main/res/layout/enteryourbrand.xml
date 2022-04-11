@@ -2,6 +2,138 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:padding="15dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textViewenteryourbrand"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Enter Your Brand"
+                android:backgroundTint="@color/teal_700"
+                android:textSize="35dp"
+                android:textColor="@color/teal_700"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"
+                android:textAlignment="center"/>
+            <EditText
+                android:id="@+id/editTextTextPersonName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Name"
+                android:backgroundTint="@color/teal_200"
+                android:padding="17dp"
+                android:textSize="18dp"
+                android:textColor="@color/teal_300"
+                android:background="@color/teal_700"
+                android:layout_marginBottom="15dp"
+                android:layout_marginTop="15dp"/>
+            <EditText
+                android:id="@+id/editTextTextEmailAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textEmailAddress"
+                android:text="Email Address"
+                android:backgroundTint="@color/teal_200"
+                android:padding="17dp"
+                android:textSize="18dp"
+                android:textColor="@color/teal_300"
+                android:background="@color/teal_700"
+                android:layout_marginBottom="15dp"
+                android:layout_marginTop="15dp"/>
+            <TextView
+                android:id="@+id/textviewordirectlycontactusby"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Check what applies for your brand"
+                android:backgroundTint="@color/teal_800"
+                android:textSize="20dp"
+                android:textColor="@color/teal_800"
+                android:textStyle="bold"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="1dp"/>
+
+            <CheckBox
+                android:id="@+id/checkBoxvegan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/teal_800"
+                android:textSize="17dp"
+                android:text="Vegan" />
+
+            <CheckBox
+                android:id="@+id/checkBoxcrueltyfree"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/teal_800"
+                android:textSize="17dp"
+                android:text="Cruelty free" />
+
+            <CheckBox
+                android:id="@+id/checkBoxnontoxic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/teal_800"
+                android:textSize="17dp"
+                android:text="Non-toxic" />
+
+            <CheckBox
+                android:id="@+id/checkBoxethicalsourcing"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/teal_800"
+                android:textSize="17dp"
+                android:text="Ethical Sourcing" />
+
+            <CheckBox
+                android:id="@+id/checkBoxthoughtfulpackaging"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/teal_800"
+                android:textSize="17dp"
+                android:text="Thoughtful Packaging" />
+
+            <EditText
+                android:id="@+id/editTextTextMessage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Brand Motto and Description"
+                android:backgroundTint="@color/teal_700"
+                android:padding="57dp"
+                android:textSize="18dp"
+                android:textColor="@color/teal_300"
+                android:layout_marginBottom="15dp"
+                android:layout_marginTop="15dp"/>
+            <Button
+                android:id="@+id/buttonsubmit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Submit"
+                android:backgroundTint="@color/teal_200"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"
+                android:layout_marginRight="70dp"
+                android:layout_marginLeft="70dp"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
 
 </LinearLayout>

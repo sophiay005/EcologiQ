@@ -25,6 +25,15 @@
                 android:text="My Profile" />
 
             <Button
+                android:id="@+id/buttonlogin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:layout_marginBottom="20dp"
+                android:backgroundTint="@color/teal_700"
+                android:text="Login" />
+
+            <Button
                 android:id="@+id/buttonmyorder"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"

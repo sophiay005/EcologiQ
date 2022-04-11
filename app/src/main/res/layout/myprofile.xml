@@ -118,7 +118,7 @@
                 android:textSize="18dp" />
 
             <Button
-                android:id="@+id/button8"
+                android:id="@+id/buttonfindyourmatch"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="70dp"

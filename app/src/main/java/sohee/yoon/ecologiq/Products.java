@@ -26,6 +26,7 @@ public class Products extends AppCompatActivity {
         imageButtonaxiologybalmie.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                myWebView.setVisibility(View.VISIBLE);
                 myWebView.loadUrl("https://axiologybeauty.com/collections/balmies/products/cotton-candy-skies-vegan-balmies-set");
                 WebSettings webSettings = myWebView.getSettings();
                 webSettings.setJavaScriptEnabled(true);
@@ -154,7 +155,7 @@ public class Products extends AppCompatActivity {
             }
         });
 
-        ImageButton imageButtonfatandthemooneyecoal = findViewById(R.id.imageButtonfatandthemooneyecoal;
+        ImageButton imageButtonfatandthemooneyecoal = findViewById(R.id.imageButtonfatandthemooneyecoal);
         imageButtonfatandthemooneyecoal.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

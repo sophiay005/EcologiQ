@@ -22,6 +22,7 @@ public class Brands extends AppCompatActivity {
         Button fatandthemoonBtn = findViewById(R.id.buttonFatAndTheMoon);
         Button dirtyhippieBtn = findViewById(R.id.buttonDirtyHippie);
         Button riverorganicsBtn = findViewById(R.id.buttonRiverOrganics);
+        Button enteryourbrandBtn = findViewById(R.id.buttonenteryourbrand);
 
         elanebeautyBtn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -91,6 +92,16 @@ public class Brands extends AppCompatActivity {
             public void onClick(View view) {
                 //page change
                 Intent it = new Intent(Brands.this, RiverOrganics.class);
+                startActivity(it);
+
+            }
+        });
+
+        enteryourbrandBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                //page change
+                Intent it = new Intent(Brands.this, EnterYourBrand.class);
                 startActivity(it);
 
             }

@@ -4,13 +4,14 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="app/src/main/res/layout/axiology.xml" value="0.3203125" />
-        <entry key="app/src/main/res/layout/brands.xml" value="0.3351449275362319" />
-        <entry key="app/src/main/res/layout/contactus.xml" value="0.38700572580531023" />
+        <entry key="app/src/main/res/layout/brands.xml" value="0.3244047619047619" />
+        <entry key="app/src/main/res/layout/contactus.xml" value="0.32763835519984147" />
         <entry key="app/src/main/res/layout/dabherbmakeup.xml" value="0.3203125" />
         <entry key="app/src/main/res/layout/dirtyhippie.xml" value="0.32207794189453126" />
         <entry key="app/src/main/res/layout/elatebeauty.xml" value="0.3203125" />
         <entry key="app/src/main/res/layout/enteryourbrand.xml" value="0.25885416666666666" />
         <entry key="app/src/main/res/layout/fatandthemoon.xml" value="0.3223958333333333" />
+        <entry key="app/src/main/res/layout/findyourmatch.xml" value="0.1" />
         <entry key="app/src/main/res/layout/home.xml" value="0.182518115942029" />
         <entry key="app/src/main/res/layout/izzy.xml" value="0.3203125" />
         <entry key="app/src/main/res/layout/login.xml" value="0.21133739084437272" />

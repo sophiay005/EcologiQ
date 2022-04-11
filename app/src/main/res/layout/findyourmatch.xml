@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp">
+    <WebView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id = "@+id/webviewfindyourmatch"/>
+
+    <TextView
+        android:id="@+id/textViewfindyourmatch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Find Your Match"
+        android:backgroundTint="@color/teal_700"
+        android:textSize="35dp"
+        android:textColor="@color/teal_700"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:textAlignment="center"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <androidx.gridlayout.widget.GridLayout
+                android:layout_width="390dp"
+                android:layout_height="wrap_content"
+                android:padding="10dp">
+
+                <ImageButton
+                    android:id="@+id/imageButtonaxiologylipstick"
+                    android:layout_width="120dp"
+                    android:layout_height="150dp"
+                    android:scaleType="fitCenter"
+                    android:backgroundTint="@color/white"
+                    app:srcCompat="@drawable/axiologylipstick" />
+
+                <ImageButton
+                    android:id="@+id/imageButtondabherbmakeupmascarabar"
+                    android:layout_width="120dp"
+                    android:layout_height="150dp"
+                    android:scaleType="fitCenter"
+                    android:backgroundTint="@color/white"
+                    app:layout_column="2"
+                    app:layout_row="0"
+                    app:srcCompat="@drawable/dabherbmakeupmascarabar" />
+
+                <ImageButton
+                    android:id="@+id/imageButtondabhermakeupfoundation"
+                    android:layout_width="120dp"
+                    android:layout_height="150dp"
+                    android:backgroundTint="@color/white"
+                    android:scaleType="fitCenter"
+                    app:layout_column="2"
+                    app:layout_row="1"
+                    app:srcCompat="@drawable/dabhermakeupfoundation" />
+
+                <ImageButton
+                    android:id="@+id/imageButtondirtyhippiemascara"
+                    android:layout_width="120dp"
+                    android:layout_height="150dp"
+                    android:backgroundTint="@color/white"
+                    android:scaleType="fitCenter"
+                    app:layout_column="0"
+                    app:layout_row="1"
+                    app:srcCompat="@drawable/dirtyhippiemascara" />
+
+                <ImageButton
+                    android:id="@+id/imageButtonelatebeautyeyelinepencil"
+                    android:layout_width="120dp"
+                    android:layout_height="150dp"
+                    android:backgroundTint="@color/white"
+                    android:scaleType="fitCenter"
+                    app:layout_column="1"
+                    app:layout_row="1"
+                    app:srcCompat="@drawable/elatebeautyeyelinepencil" />
+
+                <ImageButton
+                    android:id="@+id/imageButtonelatebeautymascara"
+                    android:layout_width="120dp"
+                    android:layout_height="150dp"
+                    android:backgroundTint="@color/white"
+                    android:scaleType="fitCenter"
+                    app:layout_column="1"
+                    app:layout_row="2"
+                    app:srcCompat="@drawable/elatebeautymascara" />
+
+
+                <ImageButton
+                    android:id="@+id/imageButtonfatandthemoonbeamhighlighter"
+                    android:layout_width="120dp"
+                    android:layout_height="150dp"
+                    android:backgroundTint="@color/white"
+                    android:scaleType="fitCenter"
+                    app:layout_column="0"
+                    app:layout_row="2"
+                    app:srcCompat="@drawable/fatandthemoonbeamhighlighter" />
+
+                <ImageButton
+                    android:id="@+id/imageButtonriverorganicsmascara"
+                    android:layout_width="120dp"
+                    android:layout_height="150dp"
+                    android:backgroundTint="@color/white"
+                    android:scaleType="fitCenter"
+                    app:layout_column="1"
+                    app:layout_row="0"
+                    app:srcCompat="@drawable/riverorganicsmascara" />
+
+            </androidx.gridlayout.widget.GridLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

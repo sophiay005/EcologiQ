@@ -16,6 +16,7 @@ public class Menu extends AppCompatActivity {
 
 
         Button myprofileBtn = findViewById(R.id.buttonmyprofile);
+        Button loginBtn = findViewById(R.id.buttonlogin);
         Button myorderBtn = findViewById(R.id.buttonmyorder);
         Button brandsBtn = findViewById(R.id.buttonbrands);
         Button contactBtn = findViewById(R.id.buttoncontactus);
@@ -29,6 +30,16 @@ public class Menu extends AppCompatActivity {
 
             }
          });
+
+        loginBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                //page change
+                Intent it = new Intent(Menu.this, Login.class);
+                startActivity(it);
+
+            }
+        });
 
         myorderBtn.setOnClickListener(new View.OnClickListener() {
             @Override

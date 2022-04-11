@@ -5,16 +5,26 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="15dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
     <WebView
         android:layout_width="match_parent"
-        android:layout_height="50dp"
+        android:layout_height="1000dp"
+        android:visibility="invisible"
         android:id = "@+id/webviewproducts"/>
 
     <TextView
         android:id="@+id/textView3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Your Match"
+        android:text="Products"
         android:backgroundTint="@color/teal_700"
         android:textSize="35dp"
         android:textColor="@color/teal_700"
@@ -22,14 +32,6 @@
         android:layout_marginBottom="15dp"
         android:textAlignment="center"/>
 
-    <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
-
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="vertical" >
 
             <androidx.gridlayout.widget.GridLayout
                 android:layout_width="390dp"
@@ -115,6 +117,7 @@
                     android:layout_width="120dp"
                     android:layout_height="150dp"
                     android:scaleType="fitCenter"
+                    android:backgroundTint="@color/white"
                     app:layout_column="2"
                     app:layout_row="2"
                     app:srcCompat="@drawable/elatebeautyeyelinepencil" />
